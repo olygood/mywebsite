@@ -1,0 +1,10 @@
+.logo{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    background:url(../assets/aroma.jpg)center/cover;
+    /* width: 400px;
+    height: 80px; */
+}

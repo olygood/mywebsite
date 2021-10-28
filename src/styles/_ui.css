@@ -1,0 +1,19 @@
+
+.ui{
+    width:800px;
+    height:auto;
+    display:grid;
+   
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 200px 200px; 
+    grid-gap: 10px;
+    border: 2px solid blue;
+
+}
+
+.itemUi{
+    
+    border: 2px solid black;
+    background:url(../assets/terre5.png);
+
+}

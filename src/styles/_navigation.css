@@ -1,0 +1,47 @@
+/* variables */
+:root{
+    --link-bg-color: rgb(234, 255, 231);
+    --link-active: grey;
+}
+
+.navigation{
+    width: 800px;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding:20px;
+    text-decoration: none;
+   background: var(--link-bg-color);
+  
+}
+.navigation a{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.navigation a:hover{
+    color:rgb(50, 236, 33);
+    font-weight: 600;
+}
+
+/* .navigation-active ::after{
+
+  content: " ";
+  color: red;
+  width: 85%;
+  height: 25px;
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translate(-50%);
+} */
+
+.navigation-left{
+    background: rgb(125, 241, 125);
+    width: 80px;
+    height: auto;
+}
