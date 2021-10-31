@@ -1,10 +1,14 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
+import Card from '../components/Card'
 const Game = ()=>{
     return(
         <div className="game">
            
-            <h2>Game</h2>
+            <Card />
+            <Card />
+            <Card />
+            
         </div>
     )
 }

@@ -8,6 +8,7 @@ import {BrowserRouter,Switch, Route} from 'react-router-dom'
 import './styles/index.css'
 import Navigation from './components/Navigation'
 import NavigationLeft from "./components/NavigationLeft"
+import Footer from './components/Footer'
 
 function App() {
   return(
@@ -15,7 +16,7 @@ function App() {
       
         <BrowserRouter>
         <Navigation />
-        <NavigationLeft />
+      
           <Switch>
             <Route path="/" exact component= {Accueil} />
             <Route path="/game" exact component= {Game} />
@@ -24,6 +25,7 @@ function App() {
             <Route path="/contact" exact component= {Contact} />
             <Route component={NotFound} />
           </Switch>
+          <Footer />
         </BrowserRouter>
       </div>
 

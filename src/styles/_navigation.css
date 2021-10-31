@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* variables */
 :root{
     --link-bg-color: rgb(234, 255, 231);
@@ -42,6 +48,12 @@
 
 .navigation-left{
     background: rgb(125, 241, 125);
-    width: 80px;
-    height: auto;
+    width: 250px;
+    height: 800px;
+}
+.navigationRight{
+    width: 180px;
+    height:800px;
+    background:burlywood;
+
 }

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background:white;
+    width:300px;
+    height:auto;
+    border: 2px solid green;
+}
+.cardImage{
+    background:red;
+    width:300px;
+    height:300px;
+    border: 2px solid black;
+}

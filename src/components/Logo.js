@@ -5,6 +5,7 @@ const Logo = () => {
         <div className="logo">
             <img src="./img/reactTr2.png" alt="logo react" />
                 <h4>React World</h4>
+                
         </div>
     );
 };

@@ -6,6 +6,7 @@ const Footer = () => {
             <p>Twitter</p>
             <p>Telegram</p>
             <p>Instagram</p>
+             
         </div>
     );
 };
