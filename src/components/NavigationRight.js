@@ -6,8 +6,8 @@ import { faGamepad } from '@fortawesome/free-solid-svg-icons';
 import { faDigitalTachograph} from '@fortawesome/free-solid-svg-icons';
 const NavigationRight = () => {
     return (
-        <div className="navigationRight">
-               <h2> Partage</h2>
+        <div className="navigation-right">
+               <h3> Partage</h3>
                 <br/>
                <ul>
                     <FontAwesomeIcon icon={faDigitalTachograph} />

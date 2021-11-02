@@ -15,7 +15,7 @@ function App() {
       <div className="container">
       
         <BrowserRouter>
-        <Navigation />
+        
       
           <Switch>
             <Route path="/" exact component= {Accueil} />
@@ -25,7 +25,7 @@ function App() {
             <Route path="/contact" exact component= {Contact} />
             <Route component={NotFound} />
           </Switch>
-          <Footer />
+          
         </BrowserRouter>
       </div>
 

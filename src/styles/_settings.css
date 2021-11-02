@@ -24,18 +24,6 @@ body{
     border: 2px solid red;
    
 }
-.accueil{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    width:1200px;
-    height:1080px;
-
-  
-
-} 
 
 .title{
     color:red;
