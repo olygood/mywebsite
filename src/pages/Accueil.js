@@ -8,13 +8,8 @@ import NavigationRight from '../components/NavigationRight'
 const Accueil = ()=>{
     return(
         <div className="accueil">
-              
-                
-                <NavigationLeft />  
+            <NavigationLeft />  
                <NavigationRight />
-                       
-            
-               
         </div>
     )
 }

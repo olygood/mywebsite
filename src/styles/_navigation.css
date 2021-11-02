@@ -8,12 +8,13 @@
 :root{
     --link-bg-color: rgb(234, 255, 231);
     --link-active: grey;
+    /* --link-bg-nav:#222497; */
+    --link-bg-nav:#efeff1;
 }
 
 .navigation{
-    width: 800px;
-    height: auto;
-    border: 2px solid black;
+    width: 1200px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,7 +22,9 @@
     margin: 20px;
     padding:20px;
     text-decoration: none;
-   background: var(--link-bg-color);
+    /* border: 2px solid black; */
+    background: var(--link-bg-nav);
+    
   
 }
 .navigation a{
@@ -47,13 +50,36 @@
 } */
 
 .navigation-left{
-    background: rgb(125, 241, 125);
+  
+    background: var(--link-bg-nav);
     width: 250px;
     height: 800px;
+    color: red;
+    text-align: center;
+
+}
+.navigation-left ul{
+    list-style-type: none;
+}
+.navigation-left a{
+    
+    text-decoration: none;
 }
 .navigationRight{
+    background: var(--link-bg-nav);
     width: 180px;
     height:800px;
-    background:burlywood;
+    text-align: center;
+    margin-bottom: 50px;
 
+}
+.navigationRight ul{
+    list-style-type:none;
+    color:blue;
+   
+}
+.navigationRight a{
+    text-decoration: none;
+    color:grey;
+    
 }
